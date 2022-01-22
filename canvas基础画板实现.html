@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./huaban.css">
+</head>
+
+<body>
+
+    <!-- 将画笔功能，能够拖动鼠标在页面内绘图   能够在任意位置绘制圆形， -->
+    <!-- 拖动鼠标即可随意在任意位置绘制圆形，并且能够随意定制大小， -->
+    <!-- 能够在任意位置绘制出矩形，拖动鼠标即可在随意位置绘制出矩形，并且可以随意绘制大小 -->
+
+    <div class="caidan">
+        <div class="btn" id="huabi">画笔</div>
+        <div class="btn" id="rect">矩形</div>
+        <div class="btn" id="yuan">圆形</div>
+        <div class="btn" id="clean">橡皮擦</div>
+        <div class="btn">
+            <input type="color" id="input">
+        </div>
+        <div class="btn">
+            <span id="skin"></span>
+            <span id="xi"></span>
+            <span id="normal"></span>
+            <span id="cu"></span>
+        </div>
+        <div class="btn" id="del">一键清空</div>
+        <div class="btn" id="download">下载图片</div>
+    </div>
+    <canvas id="canvas" width="" height=""></canvas>
+    <script src="./huaban.js">
+        
+    </script>
+</body>
+
+</html>
